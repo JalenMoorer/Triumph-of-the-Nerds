@@ -302,3 +302,28 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+.background-color{
+background-color: #24262D;
+}
+.CTAimage-area {
+border: 1px solid #000;
+height: 500px;
+}
+ .color-left{
+
+}
+.color-right{
+height: 500px;
+border: 1px solid white;
+}
+.clear-padding{
+    padding: 0 0 0 0;
+}
+.carousel-inner {
+position: relative;
+width: 100%;
+overflow: hidden;
+height: 500px;
+}
