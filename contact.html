@@ -48,28 +48,41 @@
 
     <div id="wrapper">
         <div id="content">
-           <h1>About Me</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet justo quis felis iaculis
-              ullamcorper. Morbi eu ipsum gravida, varius ante ac, consequat quam. Quisque ut massa eget metus
-              molestie scelerisque. Suspendisse sagittis, ex sit amet aliquet tristique, diam turpis malesuada enim,
-              in rhoncus felis justo quis massa. Donec enim ex, venenatis vitae mauris eu, faucibus maximus nibh.
-              Maecenas laoreet elementum neque, sit amet tristique odio. Duis id metus imperdiet, interdum justo eu,
-              ornare mauris. Aliquam eu nisi porttitor, luctus augue vel, venenatis eros. Class aptent taciti
-              sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur molestie enim eget
-              augue sodales, fermentum mattis tellus dapibus. Duis ut dui a nulla ultricies euismod. Sed sem est,
-              aliquet sit amet ultricies eu, volutpat sed eros. Sed eget rutrum tortor. Morbi in hendrerit purus.
-               Cras a vehicula dui, vitae porta enim. Phasellus massa urna, aliquam in varius ac, molestie et
-                turpis. Nam metus orci, efficitur in accumsan non, imperdiet ut dui. Nullam sed quam facilisis,
-                pretium mi eu, suscipit turpis. Donec sit amet sapien sed orci lobortis consectetur. Suspendisse
-                placerat consectetur magna et consequat. Aenean posuere, libero nec finibus maximus, metus quam
-                mollis felis, eget venenatis nisi diam eget mi. Aliquam id ante eu lacus dignissim mattis et ac
-                    lectus. Curabitur sit amet finibus orci.
-            </p>
+           <h1>Contact</h1>
+           <p>Please insert any feedback you would like to give</p>
+             <form action="" method="post" id="register-form" novalidate="novalidate">
+               <div id="form-content">
+                    <fieldset>
+                        <div class="fieldgroup">
+                            <label for="firstname">First Name</label>
+                            <input type="text" name="firstname"/>
+                        </div>
+             
+                        <div class="fieldgroup">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="lastname"/>
+                        </div>
+             
+                        <div class="fieldgroup">
+                            <label for="email">Email</label>
+                            <input type="text" name="email"/>
+                        </div>
+             
+                        <div class="fieldgroup" >
+                            <label for="text">Text</label>
+                            <input style="
+    height: 100px;
+"class="text-area" type="text" name="text"/>
+                        </div>
+             
+                        <div class="fieldgroup">
+                            <input type="submit" value="Submit" class="submit"/>
+                        </div>
+                    </fieldset>
+                </form>
+                </div>
           </div>
-          <div id="sidebar">
-            <img src="img/altair.jpg">
-            <div class="caption">Donec id faucibus neque. Mauris vel sollicitudin tortor. Curabitur venenatis metus nec justo dapibus efficitur at sit amet nulla. Donec finibus quam non leo ullamcorper pharetra. Proin porttitor sem ut velit rutrum, id euismod libero condimentum. Pellentesque euismod, massa eget interdum placerat
-            </div>
+
         </div>
     
 
@@ -81,6 +94,7 @@
       </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/bootstrap.min.js"></script>
