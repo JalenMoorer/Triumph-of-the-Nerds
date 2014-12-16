@@ -9,24 +9,24 @@
             //form validation rules
             $("#register-form").validate({
                 rules: {
-                    firstname: "required",
+                    subject: "required",
                     lastname: "required",
                     email: {
                         required: true,
                         email: true
                     },
-                    text: {
+                    body: {
                         required: true,
-                        minlength: 50 //minimum characters required for the password
+                        minlength: 50
                     },
                     agree: "required"
                 },
                 messages: {
-                    firstname: "Please enter your firstname",
+                    subject: "Please enter a subject",
                     lastname: "Please enter your lastname",
-                    text: {
+                    body: {
                         required: "Please provide a message",
-                        minlength: "You provide at least 50 characters"
+                        minlength: "Your message must be at least 50 characters long"
                     },
                     email: "Please enter a valid email address",
                     agree: "Please accept our policy"

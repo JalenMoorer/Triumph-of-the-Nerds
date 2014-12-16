@@ -50,40 +50,36 @@
         <div id="content">
            <h1>Contact</h1>
            <p>Please insert any feedback you would like to give</p>
-             <form action="" method="post" id="register-form" novalidate="novalidate">
-               <div id="form-content">
-                    <fieldset>
-                        <div class="fieldgroup">
-                            <label for="firstname">First Name</label>
-                            <input type="text" name="firstname"/>
-                        </div>
-             
-                        <div class="fieldgroup">
-                            <label for="lastname">Last Name</label>
-                            <input type="text" name="lastname"/>
-                        </div>
-             
-                        <div class="fieldgroup">
-                            <label for="email">Email</label>
-                            <input type="text" name="email"/>
-                        </div>
-             
-                        <div class="fieldgroup" >
-                            <label for="text">Text</label>
-                            <input style="
-    height: 100px;
-"class="text-area" type="text" name="text"/>
-                        </div>
-             
-                        <div class="fieldgroup">
-                            <input type="submit" value="Submit" class="submit"/>
-                        </div>
-                    </fieldset>
-                </form>
-                </div>
-          </div>
-
-        </div>
+<form action="" method="post" id="register-form" novalidate="novalidate">
+ 
+    <h2>User Registration</h2>
+ 
+    <div id="form-content">
+        <fieldset>
+ 
+            <div class="fieldgroup">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject"/>
+            </div>
+ 
+ 
+            <div class="fieldgroup">
+                <label for="email">Email</label>
+                <input type="text" name="email"/>
+            </div>
+ 
+            <div class="fieldgroup">
+                <label for="body">Body</label>
+                <input textarea cols="300" rows="10" name="body"></textarea>
+            </div>
+ 
+            <div class="fieldgroup">
+                <input type="submit" value="Submit" class="submit"/>
+            </div>
+ 
+        </fieldset>
+    </div>
+</form>
     
 
 
@@ -91,7 +87,7 @@
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2014, FakeCompany. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
-      </div>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.js"></script>
